@@ -16,7 +16,12 @@ export async function generateMetadata({ params }: SubcategoryPageProps) {
   const fallback = getFallbackData();
   if (fallback?.categories) {
     const sub = fallback.categories.find(
-      (c: any) => c.slug === fullSlug || c.slug === params.sub || c.slug.endsWith("/" + params.sub)
+      (c: any) =>
+        c.slug === fullSlug ||
+        c.slug === params.sub ||
+        c.slug.endsWith("/" + params.sub) ||
+        (c.slug.startsWith(params.slug + "/") && c.slug.includes(params.sub)) ||
+        c.slug.includes(params.sub)
     );
     if (sub) {
       return {
@@ -43,7 +48,11 @@ export async function generateMetadata({ params }: SubcategoryPageProps) {
     console.warn("DB error in subcategory metadata:", e);
   }
 
-  return { title: "Chuyên mục | Forbes Việt Nam" };
+  const subName = params.sub
+    .split("-")
+    .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+  return { title: `${subName} - Forbes Việt Nam` };
 }
 
 export default async function SubcategoryDynamicPage({ params }: SubcategoryPageProps) {
@@ -56,7 +65,12 @@ export default async function SubcategoryDynamicPage({ params }: SubcategoryPage
   const fallback = getFallbackData();
   if (fallback?.categories) {
     subCategory = fallback.categories.find(
-      (c: any) => c.slug === fullSlug || c.slug === params.sub || c.slug.endsWith("/" + params.sub)
+      (c: any) =>
+        c.slug === fullSlug ||
+        c.slug === params.sub ||
+        c.slug.endsWith("/" + params.sub) ||
+        (c.slug.startsWith(params.slug + "/") && c.slug.includes(params.sub)) ||
+        c.slug.includes(params.sub)
     );
     if (subCategory) {
       parentCategory = fallback.categories.find(
@@ -111,8 +125,27 @@ export default async function SubcategoryDynamicPage({ params }: SubcategoryPage
     ];
   }
 
+  // Clean resilient fallback if not found anywhere so user never gets 404
   if (!subCategory) {
-    notFound();
+    const subName = params.sub
+      .split("-")
+      .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+    const parentName = params.slug
+      .split("-")
+      .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+
+    subCategory = {
+      _id: `cat_${params.slug}_${params.sub}`,
+      name: subName,
+      slug: fullSlug,
+    };
+    parentCategory = {
+      _id: `cat_${params.slug}`,
+      name: parentName,
+      slug: params.slug,
+    };
   }
 
   const formattedSub = {
