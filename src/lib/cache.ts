@@ -20,12 +20,9 @@ export const ARTICLE_LIST_PROJECTION = {
   createdAt: 1,
 };
 
-let bundledFallback: any = null;
-try {
-  bundledFallback = require("@/data/fallback_articles.json");
-} catch {
-  bundledFallback = null;
-}
+import fallbackArticlesData from "@/data/fallback_articles.json";
+
+const bundledFallback: any = fallbackArticlesData;
 
 export function getFallbackData() {
   if (process.env.FORCE_DB === "true") {

@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import DOMPurify from "isomorphic-dompurify";
 import { Calendar, User, Eye, Share2, Facebook, Twitter, Linkedin, Bookmark } from "lucide-react";
 import connectDB from "@/lib/db/mongodb";
 import Category from "@/lib/db/models/Category";
@@ -82,7 +81,7 @@ export default async function DynamicSlugPage({ params }: PageProps) {
     year: "numeric",
   });
 
-  const sanitizedHtml = DOMPurify.sanitize(article.content?.html || "");
+  const articleHtml = article.content?.html || "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -238,7 +237,7 @@ export default async function DynamicSlugPage({ params }: PageProps) {
                 [&>figure>figcaption]:text-xs [&>figure>figcaption]:text-gray-500 [&>figure>figcaption]:italic [&>figure>figcaption]:mt-2 [&>figure>figcaption]:text-center
                 [&_img]:w-full [&_img]:h-auto [&_img]:rounded-sm [&_img]:my-6
                 [&_a]:text-[#f4121e] [&_a]:underline hover:[&_a]:text-[#d8101a]"
-              dangerouslySetInnerHTML={{ __html: sanitizedHtml }}
+              dangerouslySetInnerHTML={{ __html: articleHtml }}
             />
 
             {/* Author Bio Box */}

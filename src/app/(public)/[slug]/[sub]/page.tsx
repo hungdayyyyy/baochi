@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import connectDB from "@/lib/db/mongodb";
 import Category from "@/lib/db/models/Category";
+import { getFallbackData } from "@/lib/cache";
 import SubcategoryPageTemplate from "@/components/public/SubcategoryPageTemplate";
 
 export const revalidate = 300;
@@ -11,6 +12,19 @@ interface SubcategoryPageProps {
 
 export async function generateMetadata({ params }: SubcategoryPageProps) {
   const fullSlug = `${params.slug}/${params.sub}`;
+
+  const fallback = getFallbackData();
+  if (fallback?.categories) {
+    const sub = fallback.categories.find(
+      (c: any) => c.slug === fullSlug || c.slug === params.sub || c.slug.endsWith("/" + params.sub)
+    );
+    if (sub) {
+      return {
+        title: `${sub.name} - Forbes Việt Nam`,
+        description: `Tin tức và phân tích chuyên sâu về ${sub.name} trên Forbes Việt Nam`,
+      };
+    }
+  }
 
   try {
     await connectDB();
@@ -39,29 +53,48 @@ export default async function SubcategoryDynamicPage({ params }: SubcategoryPage
   let parentCategory: any = null;
   let siblings: any[] = [];
 
-  try {
-    await connectDB();
-    subCategory =
-      (await Category.findOne({ slug: fullSlug }).lean()) ||
-      (await Category.findOne({ slug: params.sub }).lean()) ||
-      (await Category.findOne({ slug: { $regex: new RegExp(`/${params.sub}$`) } }).lean());
-
+  const fallback = getFallbackData();
+  if (fallback?.categories) {
+    subCategory = fallback.categories.find(
+      (c: any) => c.slug === fullSlug || c.slug === params.sub || c.slug.endsWith("/" + params.sub)
+    );
     if (subCategory) {
-      if (subCategory.parentId) {
-        parentCategory = await Category.findById(subCategory.parentId).lean();
-      }
-      if (!parentCategory) {
-        parentCategory = await Category.findOne({ slug: params.slug }).lean();
-      }
-
+      parentCategory = fallback.categories.find(
+        (c: any) => c._id === subCategory.parentId || c.slug === params.slug
+      );
       if (parentCategory) {
-        siblings = await Category.find({ parentId: parentCategory._id })
-          .sort({ position: 1 })
-          .lean();
+        siblings = fallback.categories.filter(
+          (c: any) => c.parentId === parentCategory._id || c.parentId === parentCategory.slug
+        );
       }
     }
-  } catch (e) {
-    console.warn("DB error in subcategory page:", e);
+  }
+
+  if (!subCategory) {
+    try {
+      await connectDB();
+      subCategory =
+        (await Category.findOne({ slug: fullSlug }).lean()) ||
+        (await Category.findOne({ slug: params.sub }).lean()) ||
+        (await Category.findOne({ slug: { $regex: new RegExp(`/${params.sub}$`) } }).lean());
+
+      if (subCategory) {
+        if (subCategory.parentId) {
+          parentCategory = await Category.findById(subCategory.parentId).lean();
+        }
+        if (!parentCategory) {
+          parentCategory = await Category.findOne({ slug: params.slug }).lean();
+        }
+
+        if (parentCategory) {
+          siblings = await Category.find({ parentId: parentCategory._id })
+            .sort({ position: 1 })
+            .lean();
+        }
+      }
+    } catch (e) {
+      console.warn("DB error in subcategory page:", e);
+    }
   }
 
   // Fallback for special slugs like Tiêu điểm & Góc nhìn
