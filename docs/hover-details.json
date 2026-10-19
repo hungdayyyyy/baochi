@@ -1,0 +1,33 @@
+{
+  "aColor": "rgb(255, 255, 255)",
+  "liBorderTop": "0px none rgb(34, 34, 34)",
+  "aBorderTop": "0px none rgb(255, 255, 255)",
+  "beforeContent": "none",
+  "beforeHeight": "auto",
+  "beforeWidth": "auto",
+  "beforeBg": "rgba(0, 0, 0, 0)",
+  "afterContent": "none",
+  "afterBg": "rgba(0, 0, 0, 0)",
+  "liBeforeContent": "\"\"",
+  "liBeforeBg": "rgb(244, 18, 30)",
+  "liAfterContent": "none",
+  "liAfterBg": "rgba(0, 0, 0, 0)",
+  "subDisplay": "block",
+  "subVisibility": "visible",
+  "subOpacity": "1",
+  "subBg": "rgb(29, 29, 29)",
+  "subRect": {
+    "x": 341.734375,
+    "y": 381.3125,
+    "width": 166.609375,
+    "height": 113,
+    "top": 381.3125,
+    "right": 508.34375,
+    "bottom": 494.3125,
+    "left": 341.734375
+  },
+  "subLiBefore": "none",
+  "subLiBeforeBg": "rgba(0, 0, 0, 0)",
+  "subLiBeforeRadius": "0px",
+  "subLiBeforeWidth": "auto"
+}

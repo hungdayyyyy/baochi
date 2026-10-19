@@ -1,0 +1,32 @@
+{
+  "headerHtml": "<header class=\"forbes-header forbes-noselect\">\n            <div class=\"forbes-header__top\">\n                <div class=\"forbes-container px-xxl-0 \">\n                    <div class=\"row\">\n                        <div class=\"col-12 px-4 px-xxl-3\">\n                            <div class=\"forbes-header__top-inner\">\n                                <div class=\"forbes-header__burger\">\n                                    <div class=\"mburger mburger--collapse\">\n                                        <b></b>\n                                        <b></b>\n                                        <b></b>\n                                    </div>\n                                </div>\n                                <div class=\"forbes-header__logo forbes-not-home\">\n                                    <a href=\"https://forbes.vn\" class=\"forbes-d-block forbes__img--prevent\">\n                                                                                <img src=\"https://forbes.vn/wp-content/uploads/2026/02/vietnam-forbes-digital-white.png\" alt=\"forbes-logo\" class=\"forbes-img-clarify\">\n                                    </a>\n                                </div>\n                                <div class=\"forbes-header__button\">\n                                    <form role=\"search\" method=\"get\" class=\"forbes-header__search-form\" action=\"https://forbes.vn/\">\n                                            <input autocomplete=\"off\" class=\"forbes-header__search-input\" type=\"text\" placeholder=\"Search\" name=\"s\" value=\"\" style=\"\">\n                                            <input type=\"hidden\" name=\"post_type\" value=\"post\" style=\"\">\n                                            <button type=\"submit\" class=\"forbes-header__search-button\"><img src=\"https://forbes.vn/wp-content/themes/forbes-vn/assets/public/images/icon-search-white.svg\">\n                                            </button>\n                                    </form>\n                                    <button class=\"forbes-header__login d-none\"></button>\n                                    <!--<a href=\"https://forbes.vn/he-thong-phat-hanh\" class=\"me-4 d-none d-xl-flex forbes-header__distribution\">Điểm bán lẻ</a>-->\n                                    <!--<a href=\"https://form.forbes.vn/sponsor/sponsor-register?topic=sponsorship&_gl=1%2a1ocf3xp%2a_ga%2aNDg4Mjg5MjQ2LjE2NjExNTY3MTI.%2a_ga_CZM0JHVHGF%2aMTY4NDkwMjY0MS45Mi4xLjE2ODQ5MDMzNjQuMzguMC4w\" style=\"margin-right: 1%;\" class=\" forbes-header__book\">Liên hệ hợp tác</a>-->\n                                    <!--<a href=\"https://form.forbes.vn/sponsor/sponsor-register?topic=sponsorship\"target=\"_blank\" style=\"margin-right: 1%;\" class=\" forbes-header__book\">Hợp tác</a>-->\n                                    <a href=\"https://forbes.vn/partnership-inquiries/\" class=\"forbes-header__book\">Cơ hội hợp tác</a>\n                                    <!-- <a href=\"https://forbes.vn/forbeswomen-membership\"target=\"_blank\" style=\"margin-right: 1%;\" class=\" forbes-header__book forbes-header_thanhvien\">Thành viên</a>-->\n                                    \n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"forbes-header__nav\">\n                <div class=\"forbes-container px-xxl-0\">\n                    <div class=\"row d-none d-lg-block\">\n                        <div class=\"col-12 px-4 px-xxl-3\">\n                                <div class=\"forbes-header__nav-inner\">\n                                    <div class=\"menu-main-menu-container\"><ul id=\"menu-main-menu\" class=\"menu\"><li id=\"menu-item-1825\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1825\"><a href=\"https://forbes.vn/tieu-diem/\">Tiêu điểm</a>\n<ul class=\"sub-menu\">\n\t<li id=\"menu-item-39\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-39\"><a href=\"https://forbes.vn/goc-nhin/\">Góc nhìn</a>\n\t<ul class=\"sub-menu\">\n\t\t<li id=\"menu-item-1131\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1131\"><a href=\"https://forbes.vn/goc-nhin/su-kien-va-binh-luan/\">Sự kiện và Bình luận</a></li>\n\t\t<li id=\"menu-item-1134\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1134\"><a href=\"https://forbes.vn/goc-nhin/y-tuong/\">Ý tưởng</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-7212525887\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-7212525887\"><a href=\"https://forbes.vn/multimedia/infographics/\">Infographic</a></li>\n</ul>\n</li>\n<li id=\"menu-item-36\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-36\"><a href=\"https://forbes.vn/kinh-doanh/\">Kinh doanh</a>\n<ul class=\"sub-menu\">\n\t<li id=\"menu-item-865\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-865\"><a href=\"https://forbes.vn/kinh-doanh/thi-t",
+  "headerStyles": {
+    "tagName": "HEADER",
+    "className": "forbes-header forbes-noselect",
+    "rect": {
+      "width": 1440,
+      "height": 130,
+      "top": 250.6875,
+      "left": 0
+    },
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(34, 34, 34)",
+    "fontFamily": "\"Times New Roman\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "letterSpacing": "normal",
+    "lineHeight": "16px",
+    "padding": "0px",
+    "margin": "0px",
+    "display": "block",
+    "justifyContent": "normal",
+    "alignItems": "normal",
+    "zIndex": "9999",
+    "border": "0px none rgb(34, 34, 34)",
+    "borderBottom": "0px none rgb(34, 34, 34)",
+    "borderTop": "0px none rgb(34, 34, 34)",
+    "boxShadow": "none",
+    "transition": "1s"
+  },
+  "bodyBg": "rgba(0, 0, 0, 0)"
+}

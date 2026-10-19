@@ -1,0 +1,382 @@
+{
+  "allHeaderLinks": [
+    {
+      "text": "",
+      "href": "https://forbes.vn/",
+      "className": "forbes-d-block forbes__img--prevent",
+      "parentTag": "DIV",
+      "parentClass": "forbes-header__logo forbes-not-home"
+    },
+    {
+      "text": "Cơ hội hợp tác",
+      "href": "https://forbes.vn/partnership-inquiries/",
+      "className": "forbes-header__book",
+      "parentTag": "DIV",
+      "parentClass": "forbes-header__button"
+    },
+    {
+      "text": "TIÊU ĐIỂM",
+      "href": "https://forbes.vn/tieu-diem/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1825"
+    },
+    {
+      "text": "Góc nhìn",
+      "href": "https://forbes.vn/goc-nhin/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-39"
+    },
+    {
+      "text": "Sự kiện và Bình luận",
+      "href": "https://forbes.vn/goc-nhin/su-kien-va-binh-luan/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1131"
+    },
+    {
+      "text": "Ý tưởng",
+      "href": "https://forbes.vn/goc-nhin/y-tuong/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1134"
+    },
+    {
+      "text": "Infographic",
+      "href": "https://forbes.vn/multimedia/infographics/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-custom menu-item-object-custom menu-item-7212525887"
+    },
+    {
+      "text": "KINH DOANH",
+      "href": "https://forbes.vn/kinh-doanh/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-36"
+    },
+    {
+      "text": "Thị Trường",
+      "href": "https://forbes.vn/kinh-doanh/thi-truong/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-865"
+    },
+    {
+      "text": "Tài chính",
+      "href": "https://forbes.vn/kinh-doanh/tai-chinh-kinh-doanh/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-873"
+    },
+    {
+      "text": "Bất động sản",
+      "href": "https://forbes.vn/kinh-doanh/bat-dong-san/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-866"
+    },
+    {
+      "text": "Công nghiệp",
+      "href": "https://forbes.vn/kinh-doanh/cong-nghiep/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1137"
+    },
+    {
+      "text": "Dịch vụ",
+      "href": "https://forbes.vn/kinh-doanh/dich-vu/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-872"
+    },
+    {
+      "text": "DOANH NGHIỆP",
+      "href": "https://forbes.vn/doanh-nghiep/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-38"
+    },
+    {
+      "text": "Doanh nhân",
+      "href": "https://forbes.vn/doanh-nghiep/doanh-nhan/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1119"
+    },
+    {
+      "text": "Hồ sơ công ty",
+      "href": "https://forbes.vn/doanh-nghiep/ho-so-cong-ty/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1120"
+    },
+    {
+      "text": "Nhân vật",
+      "href": "https://forbes.vn/doanh-nghiep/nhan-vat/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3577"
+    },
+    {
+      "text": "Quản trị",
+      "href": "https://forbes.vn/doanh-nghiep/quan-tri/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1121"
+    },
+    {
+      "text": "Start-up",
+      "href": "https://forbes.vn/doanh-nghiep/start-up/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3578"
+    },
+    {
+      "text": "Chuyển đổi số",
+      "href": "https://forbes.vn/doanh-nghiep/chuyen-doi-so/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1118"
+    },
+    {
+      "text": "CÔNG NGHỆ",
+      "href": "https://forbes.vn/cong-nghe/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-37"
+    },
+    {
+      "text": "Xu hướng",
+      "href": "https://forbes.vn/cong-nghe/xu-huong/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-869"
+    },
+    {
+      "text": "Sáng tạo",
+      "href": "https://forbes.vn/cong-nghe/sang-tao/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-868"
+    },
+    {
+      "text": "Công nghệ xanh",
+      "href": "https://forbes.vn/cong-nghe/cong-nghe-xanh/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1116"
+    },
+    {
+      "text": "Trí tuệ nhân tạo (AI)",
+      "href": "https://forbes.vn/cong-nghe/tri-tue-nhan-tao/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7212523120"
+    },
+    {
+      "text": "Blockchain",
+      "href": "https://forbes.vn/cong-nghe/blockchain/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-867"
+    },
+    {
+      "text": "Fintech",
+      "href": "https://forbes.vn/cong-nghe/fintech/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-870"
+    },
+    {
+      "text": "LỐI SỐNG",
+      "href": "https://forbes.vn/loi-song/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-40"
+    },
+    {
+      "text": "Giải trí",
+      "href": "https://forbes.vn/loi-song/giai-tri/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1123"
+    },
+    {
+      "text": "Du lịch – Ẩm thực",
+      "href": "https://forbes.vn/loi-song/du-lich-am-thuc/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1122"
+    },
+    {
+      "text": "Sức khỏe",
+      "href": "https://forbes.vn/loi-song/suc-khoe/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1125"
+    },
+    {
+      "text": "Trải nghiệm luxury",
+      "href": "https://forbes.vn/loi-song/trai-nghiem-luxury/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1135"
+    },
+    {
+      "text": "Kỹ năng phát triển",
+      "href": "https://forbes.vn/loi-song/ky-nang-phat-trien/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1126"
+    },
+    {
+      "text": "Văn hóa – Nghệ thuật",
+      "href": "https://forbes.vn/loi-song/van-hoa-nghe-thuat/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7363"
+    },
+    {
+      "text": "CÂU CHUYỆN NỔI BẬT",
+      "href": "https://forbes.vn/forbeswomen/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-custom menu-item-object-custom menu-item-7212495756"
+    },
+    {
+      "text": "SỰ KIỆN",
+      "href": "https://forbes.vn/su-kien/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1612"
+    },
+    {
+      "text": "TIÊU ĐIỂM",
+      "href": "https://forbes.vn/tieu-diem/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-693"
+    },
+    {
+      "text": "KINH DOANH",
+      "href": "https://forbes.vn/kinh-doanh/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-627"
+    },
+    {
+      "text": "DOANH NGHIỆP",
+      "href": "https://forbes.vn/doanh-nghiep/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-628"
+    },
+    {
+      "text": "CÔNG NGHỆ",
+      "href": "https://forbes.vn/cong-nghe/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-629"
+    },
+    {
+      "text": "LỐI SỐNG",
+      "href": "https://forbes.vn/loi-song/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-631"
+    },
+    {
+      "text": "GÓC NHÌN",
+      "href": "https://forbes.vn/goc-nhin/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-632"
+    },
+    {
+      "text": "MULTIMEDIA",
+      "href": "https://forbes.vn/#",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-38314"
+    },
+    {
+      "text": "Megastory",
+      "href": "https://forbes.vn/multimedia/megastory/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38315"
+    },
+    {
+      "text": "Videos",
+      "href": "https://forbes.vn/videos/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-post_type menu-item-object-page menu-item-38316"
+    },
+    {
+      "text": "ẤN PHẨM",
+      "href": "https://forbes.vn/magazine/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7188"
+    },
+    {
+      "text": "",
+      "href": "https://forbes.vn/dat-bao",
+      "className": "forbes-header-newspaper-img",
+      "parentTag": "DIV",
+      "parentClass": "forbes-header__nav-expand-inner d-flex flex-column"
+    },
+    {
+      "text": "Cơ hội hợp tác",
+      "href": "https://forbes.vn/partnership-inquiries/",
+      "className": "forbes-header__book",
+      "parentTag": "DIV",
+      "parentClass": "forbes-header-btn__book"
+    },
+    {
+      "text": "gl",
+      "href": "https://forbes.vn/#",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "gl menu-item menu-item-type-custom menu-item-object-custom menu-item-1644"
+    },
+    {
+      "text": "fb",
+      "href": "https://www.facebook.com/forbesvietnam.official",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "fb menu-item menu-item-type-custom menu-item-object-custom menu-item-619"
+    },
+    {
+      "text": "ti",
+      "href": "https://www.tiktok.com/@forbesvietnam",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "ti menu-item menu-item-type-custom menu-item-object-custom menu-item-1646"
+    },
+    {
+      "text": "yt",
+      "href": "https://www.youtube.com/channel/UCZFad_sGwAdtjyNW1MMDH3A",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "yt menu-item menu-item-type-custom menu-item-object-custom menu-item-1647"
+    },
+    {
+      "text": "In",
+      "href": "https://www.linkedin.com/company/forbes-vietnam/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "in menu-item menu-item-type-custom menu-item-object-custom menu-item-621"
+    },
+    {
+      "text": "ins",
+      "href": "https://www.instagram.com/forbes.vn/",
+      "className": "",
+      "parentTag": "LI",
+      "parentClass": "ins menu-item menu-item-type-custom menu-item-object-custom menu-item-1649"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<svg width="970" height="250" viewBox="0 0 970 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="magBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0e0d" />
+      <stop offset="50%" stop-color="#181716" />
+      <stop offset="100%" stop-color="#241b18" />
+    </linearGradient>
+    <linearGradient id="goldRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4121e" />
+      <stop offset="100%" stop-color="#ff9100" />
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="50%" stop-color="#f3e5ab" />
+      <stop offset="100%" stop-color="#aa771c" />
+    </linearGradient>
+    <filter id="shadowMag" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="8" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="970" height="250" fill="url(#magBg)" />
+
+  <!-- Background pattern / decorative stripes -->
+  <g opacity="0.15">
+    <circle cx="850" cy="125" r="140" stroke="#f4121e" stroke-width="1.5" fill="none" />
+    <circle cx="850" cy="125" r="100" stroke="#ff9100" stroke-width="1" fill="none" />
+    <circle cx="850" cy="125" r="60" stroke="#ffffff" stroke-width="0.5" fill="none" />
+  </g>
+
+  <!-- Left Side: Magazine Visual Mockup -->
+  <g transform="translate(140, 25)" filter="url(#shadowMag)">
+    <!-- Back magazine -->
+    <rect x="0" y="10" width="130" height="180" rx="4" fill="#2d2b29" stroke="#444" stroke-width="1" transform="rotate(-8 65 100)" />
+    <!-- Front magazine (Issue 155/156) -->
+    <rect x="35" y="0" width="140" height="195" rx="4" fill="#151515" stroke="#333" stroke-width="1.5" />
+    <!-- Magazine cover artwork simulation -->
+    <rect x="42" y="7" width="126" height="181" rx="2" fill="#1e1e1e" />
+    <!-- Gold / Red banner on cover -->
+    <text x="105" y="32" text-anchor="middle" fill="#ffffff" font-family="'Times New Roman', serif" font-weight="bold" font-size="20" letter-spacing="1">Forbes</text>
+    <text x="105" y="44" text-anchor="middle" fill="#a0a0a0" font-family="'Work Sans', sans-serif" font-size="6" font-weight="700" letter-spacing="1">VIỆT NAM</text>
+    
+    <!-- Portrait silhouette / circle -->
+    <circle cx="105" cy="95" r="38" fill="#2a2826" stroke="#d4af37" stroke-width="1" />
+    <path d="M 105,75 C 96,75 88,83 88,92 C 88,100 95,107 105,107 C 115,107 122,100 122,92 C 122,83 114,75 105,75 Z" fill="#666" />
+    <path d="M 80,126 C 80,113 91,105 105,105 C 119,105 130,113 130,126 Z" fill="#555" />
+    
+    <!-- Title on Cover -->
+    <text x="105" y="152" text-anchor="middle" fill="#f4121e" font-family="'Work Sans', sans-serif" font-size="8" font-weight="bold" letter-spacing="1">DANH SÁCH 2026</text>
+    <text x="105" y="167" text-anchor="middle" fill="#ffffff" font-family="'Times New Roman', serif" font-weight="bold" font-size="11">50 THƯƠNG HIỆU</text>
+    <text x="105" y="179" text-anchor="middle" fill="url(#goldText)" font-family="'Work Sans', sans-serif" font-weight="800" font-size="9" letter-spacing="0.5">DẪN ĐẦU VIỆT NAM</text>
+  </g>
+
+  <!-- Right Content: Text & CTA -->
+  <g transform="translate(370, 45)">
+    <!-- Badge -->
+    <g>
+      <circle cx="5" cy="5" r="3.5" fill="#f4121e" />
+      <text x="16" y="9" fill="#f4121e" font-family="'Work Sans', sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5">ẤN PHẨM FORBES VIỆT NAM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="44" fill="#ffffff" font-family="'Times New Roman', serif" font-weight="bold" font-size="28" letter-spacing="0.5">
+      Ấn phẩm số 155/156: 50 Thương hiệu Dẫn đầu
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="74" fill="#d0d0d0" font-family="'Work Sans', sans-serif" font-size="14" font-weight="400">
+      Đăng ký gói dài hạn nhận ngay trọn bộ ấn phẩm in &amp; đặc quyền đọc kỹ thuật số
+    </text>
+
+    <!-- Bullets -->
+    <g transform="translate(0, 92)" fill="#a0a0a0" font-family="'Work Sans', sans-serif" font-size="12">
+      <text x="0" y="10">✓ Giao báo tận nơi hàng tháng</text>
+      <text x="210" y="10">✓ Miễn phí vận chuyển toàn quốc</text>
+      <text x="440" y="10">✓ Ưu đãi sự kiện Forbes</text>
+    </g>
+
+    <!-- Red CTA Button -->
+    <g transform="translate(0, 122)">
+      <rect x="0" y="0" width="160" height="40" fill="#f4121e" rx="2" />
+      <text x="80" y="25" text-anchor="middle" fill="#ffffff" font-family="'Work Sans', sans-serif" font-size="13" font-weight="bold" letter-spacing="1">ĐẶT BÁO NGAY →</text>
+    </g>
+  </g>
+</svg>

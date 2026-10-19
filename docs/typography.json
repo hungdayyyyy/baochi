@@ -1,0 +1,52 @@
+{
+  "fonts": {
+    "serif": "var(--font-merriweather), Merriweather, Georgia, serif",
+    "sans": "var(--font-work-sans), 'Work Sans', -apple-system, BlinkMacSystemFont, sans-serif"
+  },
+  "tokens": {
+    "heroHeadline": {
+      "fontFamily": "serif",
+      "fontSize": { "desktop": "34px", "tablet": "28px", "mobile": "22px" },
+      "lineHeight": "1.25",
+      "fontWeight": "700"
+    },
+    "heroSidebarTitle": {
+      "fontFamily": "serif",
+      "fontSize": "13.5px",
+      "lineHeight": "1.3",
+      "fontWeight": "700"
+    },
+    "categorySectionHeading": {
+      "fontFamily": "sans",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "letterSpacing": "0.02em"
+    },
+    "leadArticleTitle": {
+      "fontFamily": "serif",
+      "fontSize": { "desktop": "22px", "mobile": "18px" },
+      "lineHeight": "1.3",
+      "fontWeight": "700"
+    },
+    "listArticleTitle": {
+      "fontFamily": "serif",
+      "fontSize": "14px",
+      "lineHeight": "1.35",
+      "fontWeight": "700"
+    },
+    "authorMeta": {
+      "fontFamily": "sans",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "letterSpacing": "0.05em",
+      "textTransform": "uppercase",
+      "color": "#8c8c8c"
+    },
+    "bodyExcerpt": {
+      "fontFamily": "sans",
+      "fontSize": "13.5px",
+      "lineHeight": "1.5",
+      "color": "#555555"
+    }
+  }
+}

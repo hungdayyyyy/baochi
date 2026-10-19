@@ -1,0 +1,105 @@
+version: "3.8"
+
+services:
+  # Next.js Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://forbes_app:forbes_app_secure_password_2026@mongo:27017/forbes_vn?authSource=forbes_vn
+      - NEXTAUTH_URL=http://localhost
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET:-forbes-vn-super-secret-key-32chars-min!}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-Admin@123456}
+      - STORAGE_PROVIDER=minio
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_ACCESS_KEY=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_SECRET_KEY=${MINIO_ROOT_PASSWORD:-minioadmin123}
+      - MINIO_BUCKET=forbes-media
+      - MINIO_PUBLIC_URL=http://localhost:9000
+      - CRON_SECRET=${CRON_SECRET:-forbes_cron_scheduled_publish_secret_key_2026}
+    depends_on:
+      - mongo
+      - minio
+    networks:
+      - internal-net
+      - public-net
+
+  # MongoDB - AUTH ENABLED, INTERNAL NETWORK ONLY (NOT exposed to public internet)
+  mongo:
+    image: mongo:7.0
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USER:-admin}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD:-admin123}
+      - MONGO_INITDB_DATABASE=forbes_vn
+    volumes:
+      - mongo-data:/data/db
+      - ./docker/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    networks:
+      - internal-net
+    # Note: No public 'ports' exposed! Only reachable within 'internal-net' Docker network.
+
+  # MinIO - S3 Compatible Object Storage
+  minio:
+    image: minio/minio:latest
+    restart: always
+    command: server /data --console-address ":9001"
+    environment:
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:-minioadmin123}
+    volumes:
+      - minio-data:/data
+    networks:
+      - internal-net
+      - public-net
+    ports:
+      - "9000:9000" # S3 API endpoint
+      - "9001:9001" # Web console
+
+  # MinIO Bucket Auto-Provisioning
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      sleep 2;
+      /usr/bin/mc alias set myminio http://minio:9000 minioadmin minioadmin123;
+      /usr/bin/mc mb myminio/forbes-media --ignore-existing;
+      /usr/bin/mc anonymous set download myminio/forbes-media;
+      exit 0;
+      "
+    networks:
+      - internal-net
+
+  # Caddy - Reverse Proxy with Automatic HTTPS
+  caddy:
+    image: caddy:2-alpine
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - app
+    networks:
+      - public-net
+
+networks:
+  internal-net:
+    driver: bridge
+    internal: true # Isolated internal network for Database security
+  public-net:
+    driver: bridge
+
+volumes:
+  mongo-data:
+  minio-data:
+  caddy-data:
+  caddy-config:

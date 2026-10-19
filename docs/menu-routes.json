@@ -1,0 +1,374 @@
+[
+  {
+    "label": "TIÊU ĐIỂM",
+    "parent": null,
+    "realUrl": "https://forbes.vn/tieu-diem/",
+    "route": "/tieu-diem",
+    "slug": "tieu-diem",
+    "isParent": true,
+    "children": [
+      "Góc nhìn",
+      "Infographic"
+    ]
+  },
+  {
+    "label": "Góc nhìn",
+    "parent": "TIÊU ĐIỂM",
+    "realUrl": "https://forbes.vn/goc-nhin/",
+    "route": "/goc-nhin",
+    "slug": "goc-nhin",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Infographic",
+    "parent": "TIÊU ĐIỂM",
+    "realUrl": "https://forbes.vn/multimedia/infographics/",
+    "route": "/multimedia/infographics",
+    "slug": "multimedia/infographics",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Sự kiện và Bình luận",
+    "parent": "Góc nhìn",
+    "realUrl": "https://forbes.vn/goc-nhin/su-kien-va-binh-luan/",
+    "route": "/goc-nhin/su-kien-va-binh-luan",
+    "slug": "goc-nhin/su-kien-va-binh-luan",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Ý tưởng",
+    "parent": "Góc nhìn",
+    "realUrl": "https://forbes.vn/goc-nhin/y-tuong/",
+    "route": "/goc-nhin/y-tuong",
+    "slug": "goc-nhin/y-tuong",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "KINH DOANH",
+    "parent": null,
+    "realUrl": "https://forbes.vn/kinh-doanh/",
+    "route": "/kinh-doanh",
+    "slug": "kinh-doanh",
+    "isParent": true,
+    "children": [
+      "Thị Trường",
+      "Tài chính",
+      "Bất động sản",
+      "Công nghiệp",
+      "Dịch vụ"
+    ]
+  },
+  {
+    "label": "Thị Trường",
+    "parent": "KINH DOANH",
+    "realUrl": "https://forbes.vn/kinh-doanh/thi-truong/",
+    "route": "/kinh-doanh/thi-truong",
+    "slug": "kinh-doanh/thi-truong",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Tài chính",
+    "parent": "KINH DOANH",
+    "realUrl": "https://forbes.vn/kinh-doanh/tai-chinh-kinh-doanh/",
+    "route": "/kinh-doanh/tai-chinh-kinh-doanh",
+    "slug": "kinh-doanh/tai-chinh-kinh-doanh",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Bất động sản",
+    "parent": "KINH DOANH",
+    "realUrl": "https://forbes.vn/kinh-doanh/bat-dong-san/",
+    "route": "/kinh-doanh/bat-dong-san",
+    "slug": "kinh-doanh/bat-dong-san",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Công nghiệp",
+    "parent": "KINH DOANH",
+    "realUrl": "https://forbes.vn/kinh-doanh/cong-nghiep/",
+    "route": "/kinh-doanh/cong-nghiep",
+    "slug": "kinh-doanh/cong-nghiep",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Dịch vụ",
+    "parent": "KINH DOANH",
+    "realUrl": "https://forbes.vn/kinh-doanh/dich-vu/",
+    "route": "/kinh-doanh/dich-vu",
+    "slug": "kinh-doanh/dich-vu",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "DOANH NGHIỆP",
+    "parent": null,
+    "realUrl": "https://forbes.vn/doanh-nghiep/",
+    "route": "/doanh-nghiep",
+    "slug": "doanh-nghiep",
+    "isParent": true,
+    "children": [
+      "Doanh nhân",
+      "Hồ sơ công ty",
+      "Nhân vật",
+      "Quản trị",
+      "Start-up",
+      "Chuyển đổi số"
+    ]
+  },
+  {
+    "label": "Doanh nhân",
+    "parent": "DOANH NGHIỆP",
+    "realUrl": "https://forbes.vn/doanh-nghiep/doanh-nhan/",
+    "route": "/doanh-nghiep/doanh-nhan",
+    "slug": "doanh-nghiep/doanh-nhan",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Hồ sơ công ty",
+    "parent": "DOANH NGHIỆP",
+    "realUrl": "https://forbes.vn/doanh-nghiep/ho-so-cong-ty/",
+    "route": "/doanh-nghiep/ho-so-cong-ty",
+    "slug": "doanh-nghiep/ho-so-cong-ty",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Nhân vật",
+    "parent": "DOANH NGHIỆP",
+    "realUrl": "https://forbes.vn/doanh-nghiep/nhan-vat/",
+    "route": "/doanh-nghiep/nhan-vat",
+    "slug": "doanh-nghiep/nhan-vat",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Quản trị",
+    "parent": "DOANH NGHIỆP",
+    "realUrl": "https://forbes.vn/doanh-nghiep/quan-tri/",
+    "route": "/doanh-nghiep/quan-tri",
+    "slug": "doanh-nghiep/quan-tri",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Start-up",
+    "parent": "DOANH NGHIỆP",
+    "realUrl": "https://forbes.vn/doanh-nghiep/start-up/",
+    "route": "/doanh-nghiep/start-up",
+    "slug": "doanh-nghiep/start-up",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Chuyển đổi số",
+    "parent": "DOANH NGHIỆP",
+    "realUrl": "https://forbes.vn/doanh-nghiep/chuyen-doi-so/",
+    "route": "/doanh-nghiep/chuyen-doi-so",
+    "slug": "doanh-nghiep/chuyen-doi-so",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "CÔNG NGHỆ",
+    "parent": null,
+    "realUrl": "https://forbes.vn/cong-nghe/",
+    "route": "/cong-nghe",
+    "slug": "cong-nghe",
+    "isParent": true,
+    "children": [
+      "Xu hướng",
+      "Sáng tạo",
+      "Công nghệ xanh",
+      "Trí tuệ nhân tạo (AI)",
+      "Blockchain",
+      "Fintech"
+    ]
+  },
+  {
+    "label": "Xu hướng",
+    "parent": "CÔNG NGHỆ",
+    "realUrl": "https://forbes.vn/cong-nghe/xu-huong/",
+    "route": "/cong-nghe/xu-huong",
+    "slug": "cong-nghe/xu-huong",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Sáng tạo",
+    "parent": "CÔNG NGHỆ",
+    "realUrl": "https://forbes.vn/cong-nghe/sang-tao/",
+    "route": "/cong-nghe/sang-tao",
+    "slug": "cong-nghe/sang-tao",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Công nghệ xanh",
+    "parent": "CÔNG NGHỆ",
+    "realUrl": "https://forbes.vn/cong-nghe/cong-nghe-xanh/",
+    "route": "/cong-nghe/cong-nghe-xanh",
+    "slug": "cong-nghe/cong-nghe-xanh",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Trí tuệ nhân tạo (AI)",
+    "parent": "CÔNG NGHỆ",
+    "realUrl": "https://forbes.vn/cong-nghe/tri-tue-nhan-tao/",
+    "route": "/cong-nghe/tri-tue-nhan-tao",
+    "slug": "cong-nghe/tri-tue-nhan-tao",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Blockchain",
+    "parent": "CÔNG NGHỆ",
+    "realUrl": "https://forbes.vn/cong-nghe/blockchain/",
+    "route": "/cong-nghe/blockchain",
+    "slug": "cong-nghe/blockchain",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Fintech",
+    "parent": "CÔNG NGHỆ",
+    "realUrl": "https://forbes.vn/cong-nghe/fintech/",
+    "route": "/cong-nghe/fintech",
+    "slug": "cong-nghe/fintech",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "LỐI SỐNG",
+    "parent": null,
+    "realUrl": "https://forbes.vn/loi-song/",
+    "route": "/loi-song",
+    "slug": "loi-song",
+    "isParent": true,
+    "children": [
+      "Giải trí",
+      "Du lịch – Ẩm thực",
+      "Sức khỏe",
+      "Trải nghiệm luxury",
+      "Kỹ năng phát triển",
+      "Văn hóa – Nghệ thuật"
+    ]
+  },
+  {
+    "label": "Giải trí",
+    "parent": "LỐI SỐNG",
+    "realUrl": "https://forbes.vn/loi-song/giai-tri/",
+    "route": "/loi-song/giai-tri",
+    "slug": "loi-song/giai-tri",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Du lịch – Ẩm thực",
+    "parent": "LỐI SỐNG",
+    "realUrl": "https://forbes.vn/loi-song/du-lich-am-thuc/",
+    "route": "/loi-song/du-lich-am-thuc",
+    "slug": "loi-song/du-lich-am-thuc",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Sức khỏe",
+    "parent": "LỐI SỐNG",
+    "realUrl": "https://forbes.vn/loi-song/suc-khoe/",
+    "route": "/loi-song/suc-khoe",
+    "slug": "loi-song/suc-khoe",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Trải nghiệm luxury",
+    "parent": "LỐI SỐNG",
+    "realUrl": "https://forbes.vn/loi-song/trai-nghiem-luxury/",
+    "route": "/loi-song/trai-nghiem-luxury",
+    "slug": "loi-song/trai-nghiem-luxury",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Kỹ năng phát triển",
+    "parent": "LỐI SỐNG",
+    "realUrl": "https://forbes.vn/loi-song/ky-nang-phat-trien/",
+    "route": "/loi-song/ky-nang-phat-trien",
+    "slug": "loi-song/ky-nang-phat-trien",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Văn hóa – Nghệ thuật",
+    "parent": "LỐI SỐNG",
+    "realUrl": "https://forbes.vn/loi-song/van-hoa-nghe-thuat/",
+    "route": "/loi-song/van-hoa-nghe-thuat",
+    "slug": "loi-song/van-hoa-nghe-thuat",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "CÂU CHUYỆN NỔI BẬT",
+    "parent": null,
+    "realUrl": "https://forbes.vn/forbeswomen/",
+    "route": "/forbeswomen",
+    "slug": "forbeswomen",
+    "isParent": true,
+    "children": []
+  },
+  {
+    "label": "SỰ KIỆN",
+    "parent": null,
+    "realUrl": "https://forbes.vn/su-kien/",
+    "route": "/su-kien",
+    "slug": "su-kien",
+    "isParent": true,
+    "children": []
+  },
+  {
+    "label": "ẤN PHẨM",
+    "parent": null,
+    "realUrl": "https://forbes.vn/magazine/",
+    "route": "/magazine",
+    "slug": "magazine",
+    "isParent": false,
+    "children": []
+  },
+  {
+    "label": "Cơ hội hợp tác",
+    "parent": null,
+    "realUrl": "https://forbes.vn/partnership-inquiries/",
+    "route": "/partnership-inquiries",
+    "slug": "partnership-inquiries",
+    "isParent": true,
+    "children": []
+  },
+  {
+    "label": "Multimedia",
+    "parent": null,
+    "realUrl": "https://forbes.vn/multimedia/",
+    "route": "/multimedia",
+    "slug": "multimedia",
+    "isParent": true,
+    "children": []
+  },
+  {
+    "label": "Đặt báo",
+    "parent": null,
+    "realUrl": "https://forbes.vn/dat-bao/",
+    "route": "/dat-bao",
+    "slug": "dat-bao",
+    "isParent": true,
+    "children": []
+  }
+]

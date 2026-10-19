@@ -1,0 +1,772 @@
+{
+  "category_kinh_doanh": {
+    "title": "Kinh doanh - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-main-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "SECTION",
+        "className": "forbes-main forbes-category-main",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab forbes-category__tab--child",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-container ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-heading no-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-tab ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-link ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-post-list forbes-padding-mobile-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-content forbes-pr-134",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  },
+  "subcategory_thi_truong": {
+    "title": "Thị Trường - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-main-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "SECTION",
+        "className": "forbes-main forbes-category-main",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-container ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-heading no-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-tab m-3 d-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-link d-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-post-list forbes-padding-mobile-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-content forbes-pr-134",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  },
+  "forbeswomen": {
+    "title": "ForbesWomen - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-main-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "SECTION",
+        "className": "forbes-main forbes-category-main",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab forbes-category__tab--child",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-container ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-heading no-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-tab m-3",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-link d-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-post-list forbes-padding-mobile-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-content forbes-pr-134",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  },
+  "su_kien": {
+    "title": "Sự kiện - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "SECTION",
+        "className": "forbes-main forbes-event-template",
+        "id": "page-1418",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-main-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-master-head__container slick-initialized slick-slider",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-master-head__item-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-master-head__btn forbes-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-number__container forbes-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-about__container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-about__content",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event-thought-leader__container forbes-position-relative",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-event__container forbes-container px-xxl-0 px-4",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  },
+  "partnership_inquiries": {
+    "title": "Partnership Inquiries - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": "Cơ hội đồng hành cùng Forbes Việt Nam",
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "pi-container",
+        "id": "",
+        "h1": "Cơ hội đồng hành cùng Forbes Việt Nam",
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-bottom-navigation__container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-footer__container forbes-container px-4 px-lg-3 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-footer__content",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-footer__content-inner",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-footer-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-footer__credit-content",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-footer__credit-content",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "d-flex justify-content-between align-items-center flex-column flex-sm-row",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-footer__container forbes-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  },
+  "infographics": {
+    "title": "Infographics - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-main-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "SECTION",
+        "className": "forbes-main forbes-category-main",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-container ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-heading no-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-tab m-3 d-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-link d-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-post-list forbes-padding-mobile-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-content forbes-pr-134",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  },
+  "magazine": {
+    "title": "Magazine - Forbes Việt Nam",
+    "sections": [
+      {
+        "tagName": "SECTION",
+        "className": "forbes-wrapper",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0 ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-container px-xxl-0",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-main-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-menu-expand-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "menu-social-menu-container",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "SECTION",
+        "className": "forbes-main forbes-category-main",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab forbes-category__tab--child",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-container ",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-heading no-heading",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-tab m-3",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-link d-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "row forbes-category-post-list forbes-padding-mobile-none",
+        "id": "",
+        "h1": null,
+        "h2": null
+      },
+      {
+        "tagName": "DIV",
+        "className": "forbes-category__tab-content forbes-pr-134",
+        "id": "",
+        "h1": null,
+        "h2": null
+      }
+    ]
+  }
+}
